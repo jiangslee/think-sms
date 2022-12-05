@@ -35,3 +35,5 @@ package-lock.json
 # Bower components
 bower_components
 /package-lock.json
+
+.vscode

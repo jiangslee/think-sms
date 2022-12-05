@@ -1,10 +1,10 @@
 {
-  "name": "yzh52521/think-sms",
-  "description": "The ThinkPHP SMS package.",
+  "name": "jiangslee/think-sms",
+  "description": "The ThinkPHP SMS package. fork from yzh52521/think-sms",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/yzh52521/think-sms/issues",
-    "source": "https://github.com/yzh52521/think-sms"
+    "issues": "https://github.com/jiangslee/think-sms/issues",
+    "source": "https://github.com/jiangslee/think-sms"
   },
   "authors": [
     {
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "yzh52521\\sms\\": "src"
+      "jiangslee\\sms\\": "src"
     },
     "files": [
       "src/helpers.php"
@@ -28,7 +28,7 @@
   "extra": {
     "think": {
       "services": [
-        "yzh52521\\sms\\Service"
+        "jiangslee\\sms\\Service"
       ],
       "config":{
         "sms": "config/sms.php"

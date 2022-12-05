@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace yzh52521\sms;
+namespace jiangslee\sms;
 
 use Overtrue\EasySms\EasySms;
 
